@@ -4,9 +4,13 @@ Resonite VRMインポート
 
 前提条件
     使用アバター [ポンデロニウム研究所](https://ponderogen.booth.pm/) [桔梗](https://booth.pm/ja/items/3681787)
+
     使用衣装 [EXTENSION CLOTHING](https://extension.booth.pm/) [DROP DEAD](https://booth.pm/ja/items/4689830)
+
     Win11 Pro 22H1 build 22621.2428
-    Blener 3.6.4
+
+    Blender 3.6.4
+
     Unity 2019.4.31f1
 
 ➀ VCCでアバターのプロジェクト作成
