@@ -37,10 +37,24 @@ Resonite VRMインポート
 
 ⑧ VRMファイルが出力される。
 
-⑨＜追記＞ VRM最新版
+⑨VRM最新版に更新する
+Unity 2021.3 LTS以降で新規プロジェクト(3D)を作る
+UniVRM等のパッケージを追加
+VRMをDnD、
+ヒエラルキーにDnD
+リグとして認識させないボーンに<NOIK>と追記
+ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
+ライセンス等を適切に記述
+ExportSettingタブでDivide Vertex Bufferにチェックを入れる
+ExportをクリックしてExport実行
 
-⑩ 「[VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649)」を使い変換する
-最新版を使いたい場合は、githubにある [vrmtoglb_autoconvert](https://github.com/kazu0617/vrmtoglb_autoconvert) からダウンロード
+ファイル名の拡張子を.vrmから.glbとつけてResoniteにDnDする。
+これで問題無ければ終了
+だめな場合は、拡張子を.vrmに戻し、以下の変換スクリプトを使う方法を参照
+
+⑩ 変換スクリプトを使う方法
+「[VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649)」を使い変換する
+最新版の変換スクリプトを使いたい場合は、githubにある [vrmtoglb_autoconvert](https://github.com/kazu0617/vrmtoglb_autoconvert) をよく読んでダウンロード
 
 [VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649) は実行中に blender を使う。（ユーザーは blender を操作する必要はない）
 blender がインストールされていない場合は自動的に最新のblenderをダウンロードしてインストールされる。
