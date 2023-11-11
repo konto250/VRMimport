@@ -3,6 +3,7 @@ Resonite VRMインポート
 2023年10月17日 8:20
 
 前提条件
+
 使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
     
 使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
