@@ -80,3 +80,5 @@ VRMファイルを_convert.batにドラッグ＆ドロップすると自動的�
 ⑫ アバタークリエイターでアバター化する（省略）
 
 ⑬ 衣装作者が凄くがんばったマテリアルはResoniteに反映していない（VRMにする時点で欠落している）ので、自分でなんとかするか有識者に聞く
+
+![alt_text](images/tex_yakikomi.png "image_tooltip")
