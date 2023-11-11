@@ -3,9 +3,9 @@ Resonite VRMインポート
 2023年10月17日 8:20
 
 前提条件
-    使用アバター [ポンデロニウム研究所](https://ponderogen.booth.pm/) [桔梗](https://booth.pm/ja/items/3681787)
+    使用アバター [とるた めるか～と -Torta Mercato-とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
 
-    使用衣装 [EXTENSION CLOTHING](https://extension.booth.pm/) [DROP DEAD](https://booth.pm/ja/items/4689830)
+    使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
 
     Win11 Pro 22H1 build 22621.2428
 
