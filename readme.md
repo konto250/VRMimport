@@ -13,7 +13,7 @@ Resonite VRMインポート
 
     Unity 2019.4.31f1
 
-➀ VCCでアバターのプロジェクト作成
+➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
 　Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
 　UniVRM-0.99は別途ダウンロードして追加
 
