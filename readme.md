@@ -23,7 +23,7 @@ Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 ④ hierarchyの衣装のルートを選択して右クリックして、Modular Avatar > Setup Outfitを選択
 ![alt_text](images/image3.png "image_tooltip")
 
-⑤ メニューバーのVRChat SDK > Show Control Panelを選択して、Build&Pulish する(VRChatにアップロードしない人はこの手順は省略してよい)
+⑤ メニューバーのVRChat SDK > Show Control Panelを選択して、Build&Publish する(VRChatにアップロードしない人はこの手順は省略してよい)
 
 ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
     アバター名(clone)がhierarchyに追加される
