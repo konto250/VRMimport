@@ -6,7 +6,7 @@ Resonite VRMインポート
 
 使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
     
-使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
+使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
 
 Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 
