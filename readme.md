@@ -3,11 +3,11 @@ Resonite VRMインポート
 2023年10月17日 8:20
 
 前提条件
-    使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
-    使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
-    Win11 Pro 22H1 build 22621.2428
-    Blender 3.6.4
-    Unity 2019.4.31f1
+使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
+    
+使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
+
+Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 
 ➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
 　Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
