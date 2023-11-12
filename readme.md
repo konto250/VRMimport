@@ -6,7 +6,7 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 - VRMに変換する
 - VRMファイルの動作確認のためclusterにアップロード
 - VRM最新版に変換する
-- GBLに変換後、Resoniteにインポート
+- GLBに変換後、Resoniteにインポート
 
 前提条件
 - 使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
