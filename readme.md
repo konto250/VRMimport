@@ -8,9 +8,9 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 - VRM最新版に変換する
 - GLBに変換後、Resoniteにインポート
 
-前提条件
-- 使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
-- 使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
+これを書いたときの環境など
+- 使用アバター  [ルーシュカ](https://booth.pm/ja/items/4296675)（[とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/)）
+- 使用衣装  [満月少女](https://booth.pm/ja/items/4998054)（[ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/)）
 - Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 
 ➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
