@@ -46,10 +46,10 @@ Resonite VRMインポート
 
 - 生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
 
-- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に<NOIK>と追加する
+- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&lt;NOIK&gt;と追加する
   - ルーシュカのUpperChest
   - 満月少女のSpine ribbon*
-  - leg accessory*も<NOIK>にすべきだと思うが後述の理由によりとりあえず無視
+  - leg accessory*も&lt;NOIK&gt;にすべきだと思うが後述の理由によりとりあえず無視
 ![alt_text](images/append_noik.png "image_tooltip")
 
 ⑩ ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
@@ -92,5 +92,5 @@ blender がインストールされていない場合は自動的に最新のble
 
 ![alt_text](images/tex_yakikomi.png "image_tooltip")
 
- - leg accessory*に<NOIK>を追記しなかったわけ
+ - leg accessory*に&lt;NOIK&gt;を追記しなかったわけ
    右足のえっちひもが何をどうやってもメッシュが変形するのでResonite内では非表示としているため（なにかに引っ張られるような変形のしかたなので、&lt;NOIK&gt;を付けるべき箇所が他にもあるかも知れない？）
