@@ -7,8 +7,8 @@ Resonite VRMインポート
 - Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 
 ➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
-　Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
-　UniVRM-0.99は別途ダウンロードして追加
+　- Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
+　- UniVRM-0.99は別途ダウンロードして追加
 
 ② アバター、衣装のunitypackageインポート
 ![alt_text](images/image1.png "image_tooltip")
