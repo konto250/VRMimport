@@ -42,14 +42,14 @@ Resonite VRMインポート
   - UniVRM com.vrmc.univrm(VRM0): https://openupm.com/packages/com.vrmc.univrm/#modal-manualinstallation
   - VRM com.vrmc.vrm(VRM1.0): https://openupm.com/packages/com.vrmc.vrm/#modal-manualinstallation
   
-Projectに手順⑦⑧でエクスポートしたVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
+- Projectに手順⑦⑧でエクスポートしたVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
 
-生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
+- 生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
 
-アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に<NOIK>と追加する
-    - ルーシュカのUpperChest
-    - 満月少女のSpine ribbon*
-    　また、leg accessory*も<NOIK>にすべきだと思うが後述の理由によりとりあえず無視
+- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に<NOIK>と追加する
+  - ルーシュカのUpperChest
+  - 満月少女のSpine ribbon*
+  - leg accessory*も<NOIK>にすべきだと思うが後述の理由によりとりあえず無視
 ![alt_text](images/append_noik.png "image_tooltip")
 
 ⑩ ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
@@ -58,27 +58,27 @@ Projectに手順⑦⑧でエクスポートしたVRMファイルをドラッグ�
 - ExportをクリックしてExport実行（今回は New_mangetsuBlue.vrm というファイル名でエクスポート）
 
 ⑪ 変換スクリプトを使う
-「[VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649)」を使い変換する
+- 「[VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649)」を使い変換する
 最新版の変換スクリプトを使いたい場合は、githubにある [vrmtoglb_autoconvert](https://github.com/kazu0617/vrmtoglb_autoconvert) をよく読んでダウンロード
 
 [VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649) は実行中に blender を使う。（ユーザーは blender を操作する必要はない）
 blender がインストールされていない場合は自動的に最新のblenderをダウンロードしてインストールされる。
 
-変換方法
+- 変換方法
 手順⑩でエクスポートしたVRMファイル（New_mangetsuBlue.vrm）を_convert.batにドラッグ＆ドロップすると自動的に行われる
 ![alt_text](images/image5.png "image_tooltip")
 
-変換が進んでいき・・・・
+- 変換が進んでいき・・・・
 ![alt_text](images/image6.png "image_tooltip")
 
-こうなったら変換は成功
+- こうなれば変換は成功
 ![alt_text](images/image7.png "image_tooltip")
 
 ⑫ VRMファイル名＋converted.glbというファイルが出力されているので、これをResoniteにインポート（Resoniteのウィンドウにドラッグ＆ドロップ）する。
 モデルインポーターのダイアログが表示されるので、3Dモデル → 一般的なほとんどのモデル → ヒューマノイドの身長に自動設定 → 高度な設定
-    マテリアル　XiexeToon
-    「アセットをオブジェクト内に入れる」を☑
-    インポート実行を押す
+- マテリアル　XiexeToon
+- 「アセットをオブジェクト内に入れる」を☑
+- インポート実行を押す
 
 ⑬ モデルが表示されれば完了
 
