@@ -34,13 +34,13 @@ Resonite VRMインポート
 
 ⑨VRM最新版に更新する
 
-Unity 2021.3 LTS以降で新規プロジェクト(3D)を作る
+- Unity 2021.3 LTS以降で新規プロジェクト(3D)を作る
 
-VRMShaders、VRMShaders、UniVRM、VRMのパッケージを追加
-- VRMShaders com.vrmc.vrmshader: https://openupm.com/packages/com.vrmc.vrmshaders/#modal-manualinstallation
-- GLTF com.vrmc.gltf: https://openupm.com/packages/com.vrmc.gltf/#modal-manualinstallation
-- UniVRM com.vrmc.univrm(VRM0): https://openupm.com/packages/com.vrmc.univrm/#modal-manualinstallation
-- VRM com.vrmc.vrm(VRM1.0): https://openupm.com/packages/com.vrmc.vrm/#modal-manualinstallation
+- VRMShaders、VRMShaders、UniVRM、VRMのパッケージを追加
+-- VRMShaders com.vrmc.vrmshader: https://openupm.com/packages/com.vrmc.vrmshaders/#modal-manualinstallation
+-- GLTF com.vrmc.gltf: https://openupm.com/packages/com.vrmc.gltf/#modal-manualinstallation
+-- UniVRM com.vrmc.univrm(VRM0): https://openupm.com/packages/com.vrmc.univrm/#modal-manualinstallation
+-- VRM com.vrmc.vrm(VRM1.0): https://openupm.com/packages/com.vrmc.vrm/#modal-manualinstallation
   
 Projectに手順⑦⑧でエクスポートしたVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
 
