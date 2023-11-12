@@ -41,7 +41,7 @@ VRMShaders、VRMShaders、UniVRM、VRMのパッケージを追加
 - UniVRM com.vrmc.univrm(VRM0): https://openupm.com/packages/com.vrmc.univrm/#modal-manualinstallation
 - VRM com.vrmc.vrm(VRM1.0): https://openupm.com/packages/com.vrmc.vrm/#modal-manualinstallation
   
-Projectに手順7,8でつくったVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
+Projectに手順⑧でエクスポートしたVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
 
 生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
 
@@ -51,12 +51,12 @@ Projectに手順7,8でつくったVRMファイルをドラッグ＆ドロップ�
     　また、leg accessory*も<NOIK>にすべきだと思うが後述の理由によりとりあえず無視
 ![alt_text](images/append_noik.png "image_tooltip")
 
-ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
+⑩ ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
 - ライセンス等を適切に記述
 - ExportSettingタブでDivide Vertex Bufferにチェックを入れる
 - ExportをクリックしてExport実行（今回は New_mangetsuBlue.vrm というファイル名でエクスポート）
 
-⑩ 変換スクリプトを使う
+⑪ 変換スクリプトを使う
 「[VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649)」を使い変換する
 最新版の変換スクリプトを使いたい場合は、githubにある [vrmtoglb_autoconvert](https://github.com/kazu0617/vrmtoglb_autoconvert) をよく読んでダウンロード
 
@@ -64,7 +64,7 @@ Projectに手順7,8でつくったVRMファイルをドラッグ＆ドロップ�
 blender がインストールされていない場合は自動的に最新のblenderをダウンロードしてインストールされる。
 
 変換方法
-前の手順で、エクスポートしたVRMファイル（New_mangetsuBlue.vrm）を_convert.batにドラッグ＆ドロップすると自動的に行われる
+手順⑩でエクスポートしたVRMファイル（New_mangetsuBlue.vrm）を_convert.batにドラッグ＆ドロップすると自動的に行われる
 ![alt_text](images/image5.png "image_tooltip")
 
 変換が進んでいき・・・・
@@ -73,13 +73,13 @@ blender がインストールされていない場合は自動的に最新のble
 こうなったら変換は成功
 ![alt_text](images/image7.png "image_tooltip")
 
-⑩ VRMファイル名＋converted.glbというファイルが出力されているので、これをResoniteにインポート（Resoniteのウィンドウにドラッグ＆ドロップ）する。
+⑫ VRMファイル名＋converted.glbというファイルが出力されているので、これをResoniteにインポート（Resoniteのウィンドウにドラッグ＆ドロップ）する。
 モデルインポーターのダイアログが表示されるので、3Dモデル → 一般的なほとんどのモデル → ヒューマノイドの身長に自動設定 → 高度な設定
     マテリアル　XiexeToon
     「アセットをオブジェクト内に入れる」を☑
     インポート実行を押す
 
-⑪ モデルが表示されれば完了
+⑬ モデルが表示されれば完了
 
 少し待てばテクスチャーも反映されるはずだが数分待っても反映しない場合は、VRMファイル名＋converted.glbが出力されているフォルダにテクスチャーも出力されているので、ResoniteにインポートしてモデルのXiexetoonマテリアルに設定する（設定方法は省略）
 ![alt_text](images/image8.png "image_tooltip")
