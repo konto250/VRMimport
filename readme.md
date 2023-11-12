@@ -38,8 +38,8 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 ![alt_text](images/image4.png "image_tooltip")
 
 ⑧ VRMファイルが出力される。
-- この時点で、clusterなどのVRMに対応したプラットフォームにアップロードするか、[VRM Live Viwer](https://booth.pm/ja/items/1783082)などを使って、他のソフト・プラットフォームでの動作に問題無いか確認しておく
-
+- この時点で、[VRM Live Viwer](https://booth.pm/ja/items/1783082)などをモデルに異常がないか確認しおく
+- clusterなどのVRMに対応したプラットフォームにアップロードして確認してもよいが、各プラットフォームの制約でアップロードできない場合がある
 
 ⑨VRM最新版に更新する
 
