@@ -4,7 +4,7 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 - [VCC](https://vrchat.com/home/download) 、[Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)で、アバターの着せ替えをしてVRChatにアップロード
 - VRMに変換する
 - VRMファイルの動作確認のためclusterにアップロード
-- VRM最新版に変換してする
+- VRM最新版に変換する
 - GBLに変換後、Resoniteにインポート
 
 前提条件
