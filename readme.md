@@ -102,4 +102,8 @@ blender がインストールされていない場合は自動的に最新のble
 ![alt_text](images/tex_yakikomi.png "image_tooltip")
 
  - leg accessory*に&lt;NOIK&gt;を追記しなかったわけ
-   右足のえっちひもが何をどうやってもメッシュが変形するのでResonite内では非表示としているため（なにかに引っ張られるような変形のしかたなので、&lt;NOIK&gt;を付けるべき箇所が他にもあるかも知れない？）
+   右足のえっちひもが何をどうやってもメッシュが変形する対処としてResonite内では非表示としているため（なにかに引っ張られるような変形のしかたなので、&lt;NOIK&gt;を付けるべき箇所が他にもあるかも知れない？）
+
+参考にした情報源
+- [VRMアバターについて](https://sharedx.notion.site/VRM-d93c6e3ae2f647e0956054efff1d20b9)
+- [Avatar_Import#ボーン、ブレンドシェイプ名の注意点など](https://neosvrjp.memo.wiki/d/Avatar_Import#content_1)
