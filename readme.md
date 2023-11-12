@@ -2,6 +2,7 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 
 概要
 - [VCC](https://vrchat.com/home/download) 、[Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)で、アバターの着せ替えをしてVRChatにアップロード
+- シェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
 - VRMに変換する
 - VRMファイルの動作確認のためclusterにアップロード
 - VRM最新版に変換する
@@ -29,7 +30,9 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 
 ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
 - アバター名(clone)がhierarchyに追加される
-
+- シェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
+ - シェイプキーの変更はResonite内でもできるので、ここでは0にしておく
+   
 ⑦ hierarchyのアバター名(clone)を選択して、メニューバーのVRM0 > Export to VRM0.xを選択
 表示されたダイアログにライセンス情報を適切に入力してExportを押す
 ![alt_text](images/image4.png "image_tooltip")
