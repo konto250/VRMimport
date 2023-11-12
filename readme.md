@@ -7,8 +7,8 @@ Resonite VRMインポート
 - Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 
 ➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
-　- Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
-　- UniVRM-0.99は別途ダウンロードして追加
+- Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
+- UniVRM-0.99は別途ダウンロードして追加
 
 ② アバター、衣装のunitypackageインポート
 ![alt_text](images/image1.png "image_tooltip")
@@ -22,15 +22,14 @@ Resonite VRMインポート
 ⑤ メニューバーのVRChat SDK > Show Control Panelを選択して、Build&Publish する(VRChatにアップロードしない人はこの手順は省略してよい)
 
 ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
-    アバター名(clone)がhierarchyに追加される
+- アバター名(clone)がhierarchyに追加される
 
 ⑦ hierarchyのアバター名(clone)を選択して、メニューバーのVRM0 > Export to VRM0.xを選択
 表示されたダイアログにライセンス情報を適切に入力してExportを押す
 ![alt_text](images/image4.png "image_tooltip")
 
 ⑧ VRMファイルが出力される。
-
-この時点で、clusterなどのVRMに対応したプラットフォームにアップロードするか、[VRM Live Viwer](https://booth.pm/ja/items/1783082)などを使って、他のソフト・プラットフォームでの動作に問題無いか確認しておく
+- この時点で、clusterなどのVRMに対応したプラットフォームにアップロードするか、[VRM Live Viwer](https://booth.pm/ja/items/1783082)などを使って、他のソフト・プラットフォームでの動作に問題無いか確認しておく
 
 
 ⑨VRM最新版に更新する
