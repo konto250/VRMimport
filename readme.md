@@ -75,7 +75,7 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
   - blender がインストールされていない場合は自動的に最新のblenderをダウンロードしてインストールされる。
 
 - 変換方法
-手順⑩でエクスポートしたVRMファイル（New_mangetsuBlue.vrm）を_convert.batにドラッグ＆ドロップすると自動的に行われる
+手順⑩でエクスポートしたVRMファイル（New_mangetsuBlue.vrm）を_convert.batにドラッグ＆ドロップすると自動的に変換される
 ![alt_text](images/image5.png "image_tooltip")
 
 - 変換が進んでいき・・・・
