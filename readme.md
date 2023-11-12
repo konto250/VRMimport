@@ -30,6 +30,9 @@ Resonite VRMインポート
 
 ⑧ VRMファイルが出力される。
 
+この時点で、clusterなどのVRMに対応したプラットフォームにアップロードするか、[VRM Live Viwer](https://booth.pm/ja/items/1783082)などを使って、他のソフト・プラットフォームでの動作に問題無いか確認しておく
+
+
 ⑨VRM最新版に更新する
 
 Unity 2021.3 LTS以降で新規プロジェクト(3D)を作る
@@ -40,7 +43,7 @@ VRMShaders、VRMShaders、UniVRM、VRMのパッケージを追加
 - UniVRM com.vrmc.univrm(VRM0): https://openupm.com/packages/com.vrmc.univrm/#modal-manualinstallation
 - VRM com.vrmc.vrm(VRM1.0): https://openupm.com/packages/com.vrmc.vrm/#modal-manualinstallation
   
-Projectに手順⑧でエクスポートしたVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
+Projectに手順⑦⑧でエクスポートしたVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
 
 生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
 
