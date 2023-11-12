@@ -13,6 +13,8 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 - 使用衣装  [満月少女](https://booth.pm/ja/items/4998054)（[ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/)）
 - Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 
+実際の手順
+
 ➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
 - Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
 - UniVRM-0.99は別途ダウンロードして追加
