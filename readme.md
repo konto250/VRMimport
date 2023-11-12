@@ -41,13 +41,17 @@ VRMShaders、VRMShaders、UniVRM、VRMのパッケージを追加
 - UniVRM com.vrmc.univrm(VRM0): https://openupm.com/packages/com.vrmc.univrm/#modal-manualinstallation
 - VRM com.vrmc.vrm(VRM1.0): https://openupm.com/packages/com.vrmc.vrm/#modal-manualinstallation
   
-- Projectに手順7,8でつくったVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
-- 生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
-- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に<NOIK>と追加する
+Projectに手順7,8でつくったVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
+
+生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
+
+アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に<NOIK>と追加する
     - ルーシュカのUpperChest
     - 満月少女のSpine ribbon*
     　また、leg accessory*も<NOIK>にすべきだと思うが後述の理由によりとりあえず無視
-- ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
+![alt_text](images/append_noik.png "image_tooltip")
+
+ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
 - ライセンス等を適切に記述
 - ExportSettingタブでDivide Vertex Bufferにチェックを入れる
 - ExportをクリックしてExport実行（今回は New_mangetsuBlue.vrm というファイル名でエクスポート）
