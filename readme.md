@@ -1,5 +1,12 @@
 Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化してResoniteに持ち込む1つの方法
 
+概要
+- [VCC](https://vrchat.com/home/download) 、[Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)で、アバターの着せ替えをしてVRChatにアップロード
+- VRMに変換する
+- VRMファイルの動作確認のためclusterにアップロード
+- VRM最新版に変換してする
+- GBLに変換後、Resoniteにインポート
+
 前提条件
 - 使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
 - 使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
