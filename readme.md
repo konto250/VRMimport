@@ -1,5 +1,4 @@
 Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化してResoniteに持ち込む1つの方法
-Resonite VRMインポート
 
 前提条件
 - 使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
