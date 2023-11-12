@@ -3,12 +3,9 @@ Resonite VRMインポート
 2023年10月17日 8:20
 
 前提条件
-
-使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
-    
-使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
-
-Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
+- 使用アバター [とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/) [ルーシュカ](https://booth.pm/ja/items/4296675)
+- 使用衣装 [ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/) [満月少女](https://booth.pm/ja/items/4998054)
+- Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 
 ➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
 　Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
@@ -35,21 +32,27 @@ Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
 ⑧ VRMファイルが出力される。
 
 ⑨VRM最新版に更新する
+
 Unity 2021.3 LTS以降で新規プロジェクト(3D)を作る
-UniVRM等のパッケージを追加
-VRMをDnD、
-ヒエラルキーにDnD
-リグとして認識させないボーンに<NOIK>と追記
-ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
-ライセンス等を適切に記述
-ExportSettingタブでDivide Vertex Bufferにチェックを入れる
-ExportをクリックしてExport実行
 
-ファイル名の拡張子を.vrmから.glbとつけてResoniteにDnDする。
-これで問題無ければ終了
-だめな場合は、拡張子を.vrmに戻し、以下の変換スクリプトを使う方法を参照
+VRMShaders、VRMShaders、UniVRM、VRMのパッケージを追加
+- VRMShaders com.vrmc.vrmshader: https://openupm.com/packages/com.vrmc.vrmshaders/#modal-manualinstallation
+- GLTF com.vrmc.gltf: https://openupm.com/packages/com.vrmc.gltf/#modal-manualinstallation
+- UniVRM com.vrmc.univrm(VRM0): https://openupm.com/packages/com.vrmc.univrm/#modal-manualinstallation
+- VRM com.vrmc.vrm(VRM1.0): https://openupm.com/packages/com.vrmc.vrm/#modal-manualinstallation
+  
+- Projectに手順7,8でつくったVRMファイルをドラッグ＆ドロップする。自動で変換されPrefabが生成される。
+- 生成されたPrefabをヒエラルキーにドラッグ＆ドロップする。
+- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に<NOIK>と追加する
+    - ルーシュカのUpperChest
+    - 満月少女のSpine ribbon*
+    　また、leg accessory*も<NOIK>にすべきだと思うが後述の理由によりとりあえず無視
+- ヒエラルキーでアバタールートを選択して VRM0 → Export to VRM0.xをクリック
+- ライセンス等を適切に記述
+- ExportSettingタブでDivide Vertex Bufferにチェックを入れる
+- ExportをクリックしてExport実行（今回は New_mangetsuBlue.vrm というファイル名でエクスポート）
 
-⑩ 変換スクリプトを使う方法
+⑩ 変換スクリプトを使う
 「[VRMをNeos対応っぽく自動で変換できるやつ](https://booth.pm/ja/items/4104649)」を使い変換する
 最新版の変換スクリプトを使いたい場合は、githubにある [vrmtoglb_autoconvert](https://github.com/kazu0617/vrmtoglb_autoconvert) をよく読んでダウンロード
 
@@ -57,7 +60,7 @@ ExportをクリックしてExport実行
 blender がインストールされていない場合は自動的に最新のblenderをダウンロードしてインストールされる。
 
 変換方法
-VRMファイルを_convert.batにドラッグ＆ドロップすると自動的に行われる
+前の手順で、エクスポートしたVRMファイル（New_mangetsuBlue.vrm）を_convert.batにドラッグ＆ドロップすると自動的に行われる
 ![alt_text](images/image5.png "image_tooltip")
 
 変換が進んでいき・・・・
