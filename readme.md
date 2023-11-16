@@ -1,4 +1,4 @@
-Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化してResoniteに持ち込む1つの方法
+Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化してResoniteに持ち込む方法の1つ
 
 手順の概略
 - [Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)を使いアバターの着せ替えをしてVRChatにアップロード
@@ -108,3 +108,4 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 参考にした情報源
 - [VRMアバターについて](https://sharedx.notion.site/VRM-d93c6e3ae2f647e0956054efff1d20b9)
 - [Avatar_Import#ボーン、ブレンドシェイプ名の注意点など](https://neosvrjp.memo.wiki/d/Avatar_Import#content_1)
+- [VRChat向けfbxモデル「薄荷」をResoniteに導入する方法(glb変換) ](https://note.com/ckkcobalt/n/n9db7c3e8a1f5)
