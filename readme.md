@@ -11,7 +11,7 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 これを書いたときの環境など
 - 使用アバター  [ルーシュカ](https://booth.pm/ja/items/4296675)（[とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/)）
 - 使用衣装  [満月少女](https://booth.pm/ja/items/4998054)（[ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/)）
-- Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1
+- Win11 Pro 22H1 build 22621.2428 / Unity 2019.4.31f1 / VRCSDK **3.4.2**
 
 実際の手順
 
