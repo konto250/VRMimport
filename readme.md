@@ -3,9 +3,9 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 手順の概略
 - [Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)を使いアバターの着せ替えをしてVRChatにアップロード
 - シェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
-- VRMに変換する
-- VRM最新版に変換する
-- VRM最新版からGLBに変換
+- UniVRM-0.99を使いVRM形式でエクスポートする
+- VRM最新版を使い再度VRM形式でエクスポートする
+- 再度エクスポートしたVRMからGLBに変換
 - GLBに変換後、Resoniteにインポート
 
 これを書いたときの環境など
