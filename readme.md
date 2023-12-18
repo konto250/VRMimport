@@ -102,7 +102,7 @@
 
 ![alt_text](images/tex_yakikomi.png "image_tooltip")
 
- - leg accessory*に&lt;NOIK&gt;を追記しなかったわけ
+## leg accessory*に&lt;NOIK&gt;を追記しなかったわけ
    
    右足のえっちひもが何をどうやってもメッシュが変形する対処としてResonite内では非表示としているため（なにかに引っ張られるような変形のしかたなので、&lt;NOIK&gt;を付けるべき箇所が他にもあるかも知れない？）
 
