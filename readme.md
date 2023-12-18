@@ -1,6 +1,6 @@
-Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化してResoniteに持ち込む方法の1つ
+# Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化してResoniteに持ち込む方法の1つ
 
-手順の概略
+## 手順の概略
 - [Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)を使いアバターの着せ替えをしてVRChatにアップロード
 - シェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
 - UniVRM-0.99を使いVRM形式でエクスポートする
@@ -8,12 +8,12 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 - 再度エクスポートしたVRMからGLBに変換
 - GLBに変換後、Resoniteにインポート
 
-これを書いたときの環境など
+## これを書いたときの環境など
 - 使用アバター  [ルーシュカ](https://booth.pm/ja/items/4296675)（[とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/)）
 - 使用衣装  [満月少女](https://booth.pm/ja/items/4998054)（[ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/)）
 - Win11 Pro 23H2 build 22631.2861 / Unity 2019.4.31f1 / VRCSDK **3.4.2**
 
-実際の手順
+## 実際の手順
 
 ➀ [VCC](https://vrchat.com/home/download) でアバターのプロジェクト作成
 - Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
@@ -106,7 +106,7 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
    
    右足のえっちひもが何をどうやってもメッシュが変形する対処としてResonite内では非表示としているため（なにかに引っ張られるような変形のしかたなので、&lt;NOIK&gt;を付けるべき箇所が他にもあるかも知れない？）
 
-参考にした情報源
+## 参考にした情報源
 - [VRMアバターについて](https://sharedx.notion.site/VRM-d93c6e3ae2f647e0956054efff1d20b9)
 - [Avatar_Import#ボーン、ブレンドシェイプ名の注意点など](https://neosvrjp.memo.wiki/d/Avatar_Import#content_1)
 - [VRChat向けfbxモデル「薄荷」をResoniteに導入する方法(glb変換) ](https://note.com/ckkcobalt/n/n9db7c3e8a1f5)
