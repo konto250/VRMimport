@@ -4,14 +4,14 @@ Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化して
 - [Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)を使いアバターの着せ替えをしてVRChatにアップロード
 - シェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
 - VRMに変換する
-- VRMファイルの動作確認のためclusterにアップロード
 - VRM最新版に変換する
+- VRMからGLBに変換
 - GLBに変換後、Resoniteにインポート
 
 これを書いたときの環境など
 - 使用アバター  [ルーシュカ](https://booth.pm/ja/items/4296675)（[とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/)）
 - 使用衣装  [満月少女](https://booth.pm/ja/items/4998054)（[ʚ♡ɞ__xIIIange__ʚ♡ɞ](https://xiiiange.booth.pm/)）
-- Win11 Pro 22H1 build 22631.2792 / Unity 2019.4.31f1 / VRCSDK **3.4.2**
+- Win11 Pro 23H2 build 22631.2861 / Unity 2019.4.31f1 / VRCSDK **3.4.2**
 
 実際の手順
 
