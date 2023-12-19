@@ -32,8 +32,7 @@
 
 ### ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
 - アバター名(clone)がhierarchyに追加される
-- シェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
- - シェイプキーの変更はResonite内でもできるので、ここでは0にしておく
+- シェイプキーの変更はResonite内でもできるので、ここではシェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
    
 ### ⑦ hierarchyのアバター名(clone)を選択して、メニューバーのVRM0 > Export to VRM0.xを選択
 表示されたダイアログにライセンス情報を適切に入力してExportを押す
