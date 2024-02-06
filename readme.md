@@ -1,4 +1,6 @@
 # Modular Avatarをつかって着せ替えしたVRChatアバターをVRM化してResoniteに持ち込む方法の1つ
+ - この文書は Unity 2022.3.6.f1 / VRCSDK **3.5.0** / UniVRM-v0.118.0 を対象としている
+ - Unity 2019.4.31f1 / VRCSDK 3.4.2 / UniVRM-0.99 を対象とした文書は[こちら](https://github.com/konto250/VRMimport/tree/for2019)
 
 ## 手順の概略
 - [Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)を使いアバターの着せ替えをしてVRChatにアップロード
