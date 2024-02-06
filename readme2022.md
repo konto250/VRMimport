@@ -82,6 +82,10 @@
 ### ⑬ アバター作者・衣装作者が凄くがんばったマテリアルはResoniteに反映していないので、自分でなんとかするか有識者に聞く
 liltoonの色調補正の焼き込み、アルファの焼き込みだけでなんとかなることもある
 
+
+### ⑭ その他
+UniVRMの最新版が使えるのであれば、VRM形式を経由せずともUniGLTFで直接gltfで出力してResoniteにインポートすることも可能だと思う（試してない）
+
 ## 参考にした情報源
 - [VRMアバターについて](https://sharedx.notion.site/VRM-d93c6e3ae2f647e0956054efff1d20b9)
 - [Avatar_Import#ボーン、ブレンドシェイプ名の注意点など](https://neosvrjp.memo.wiki/d/Avatar_Import#content_1)
