@@ -36,8 +36,8 @@
 ### ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
 - アバター名(clone)がhierarchyに追加される
 - シェイプキーの変更はResonite内でもできるので、ここではシェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
-- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&lt;NOIK&gt;と追加する。ルーシュカの場合はUpperChest。
-- 衣装にも&lt;NOIK&gt;と追加する必要のある箇所がある場合ある
+- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&lt;NOIK&gt;と追記する。ルーシュカの場合はUpperChest。
+- 衣装にも&lt;NOIK&gt;の追記が必要となる場合もある
 
 ![alt_text](images/2022/image4.png "image_tooltip")
 
