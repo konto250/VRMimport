@@ -17,6 +17,7 @@
 - Modular Avatar,liltoon(アバター・衣装が他のシェーダーを指定している場合はそれに従う)を追加して作成
 - UniVRM 最新版のパッケージを追加
   - githubのvrm-c/UniVRMを参照(https://github.com/vrm-c/UniVRM/releases)
+
 ![alt_text](images/2022/image0.png "image_tooltip")
 
 ### ② アバター、衣装のunitypackageインポート
@@ -33,8 +34,9 @@
 ### ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
 - アバター名(clone)がhierarchyに追加される
 - シェイプキーの変更はResonite内でもできるので、ここではシェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
-- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&gt;NOIK&lt;と追加する。ルーシュカの場合はUpperChest。
-- 衣装にも<NOIK>と追加する必要のある箇所がある場合ある
+- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&lt;NOIK&gt;と追加する。ルーシュカの場合はUpperChest。
+- 衣装にも&lt;NOIK&gt;と追加する必要のある箇所がある場合ある
+
 ![alt_text](images/2022/image4.png "image_tooltip")
 
 ### ⑦ hierarchyのアバター名(clone)を選択して、メニューバーのVRM0 > Export to VRM0.xを選択
@@ -54,12 +56,15 @@
 
 - 変換方法
 手順⑧でエクスポートしたVRMファイル（VRMTEST.vrm）を_convert.batにドラッグ＆ドロップすると自動的に変換される
+
 ![alt_text](images/2022/image5.png "image_tooltip")
 
 - 変換が進んでいき・・・・
+
 ![alt_text](images/image6.png "image_tooltip")
 
 - こうなれば変換は成功
+
 ![alt_text](images/2022/image7.png "image_tooltip")
 
 ### ⑩ VRMファイル名＋converted.glbというファイルが出力されているので、これをResoniteにインポート（Resoniteのウィンドウにドラッグ＆ドロップ）する。
@@ -71,6 +76,7 @@
 ### ⑪ モデルが表示されれば完了
 
 少し待てばテクスチャーも反映されるはずだが数分待っても反映しない場合は、VRMファイル名＋converted.glbが出力されているフォルダにテクスチャーも出力されているので、ResoniteにインポートしてモデルのXiexetoonマテリアルに設定する（設定方法は省略）
+
 ![alt_text](images/2022/image8.jpg "image_tooltip")
 
 ### ⑫ アバタークリエイターでアバター化する（省略）
