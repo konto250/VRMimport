@@ -33,7 +33,8 @@
 ### ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
 - アバター名(clone)がhierarchyに追加される
 - シェイプキーの変更はResonite内でもできるので、ここではシェイプキーをすべて0にしておく（そうするとResoniteにインポートした際、シェイプキーの欠落・異常がなくなるかも？）
-- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に<NOIK>と追加する
+- アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&gt;NOIK&lt;と追加する。ルーシュカの場合はUpperChest。
+- 衣装にも<NOIK>と追加する必要のある箇所がある場合ある
 ![alt_text](images/2022/image4.png "image_tooltip")
 
 ### ⑦ hierarchyのアバター名(clone)を選択して、メニューバーのVRM0 > Export to VRM0.xを選択
@@ -52,7 +53,7 @@
   - blender がインストールされていない場合は自動的に最新のblenderをダウンロードしてインストールされる。
 
 - 変換方法
-手順⑩でエクスポートしたVRMファイル（VRMTEST.vrm）を_convert.batにドラッグ＆ドロップすると自動的に変換される
+手順⑧でエクスポートしたVRMファイル（VRMTEST.vrm）を_convert.batにドラッグ＆ドロップすると自動的に変換される
 ![alt_text](images/2022/image5.png "image_tooltip")
 
 - 変換が進んでいき・・・・
@@ -79,12 +80,7 @@
  - etc, etc...
 
 ### ⑬ アバター作者・衣装作者が凄くがんばったマテリアルはResoniteに反映していないので、自分でなんとかするか有識者に聞く
-
-![alt_text](images/tex_yakikomi.png "image_tooltip")
-
-## leg accessory*に&lt;NOIK&gt;を追記しなかったわけ
-   
-   右足のえっちひもが何をどうやってもメッシュが変形する対処としてResonite内では非表示としているため（なにかに引っ張られるような変形のしかたなので、&lt;NOIK&gt;を付けるべき箇所が他にもあるかも知れない？）
+liltoonの色調補正の焼き込み、アルファの焼き込みだけでなんとかなることもある
 
 ## 参考にした情報源
 - [VRMアバターについて](https://sharedx.notion.site/VRM-d93c6e3ae2f647e0956054efff1d20b9)
