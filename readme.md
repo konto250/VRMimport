@@ -1,4 +1,4 @@
-# Modular Avatarをつかって着せ替えしたVRChatアバターをGLB化してResoniteに持ち込む方法
+# Modular Avatarをつかって着せ替えしたVRChatアバターをGLB化してResoniteに持ち込む試み
  - この文書は Unity 2022.3.6.f1 / VRCSDK 3.5.2 / UniGLTF-v0.121.0 を対象としている
  - Unity 2019.4.31f1 / VRCSDK 3.4.2 / UniVRM-0.99 を対象とした文書は[こちら](https://github.com/konto250/VRMimport/tree/for2019)
  - Unity 2022.3.6.f1 / VRCSDK 3.5.0 / UniVRM-v0.118.0 を対象とした文書は[こちら](https://github.com/konto250/VRMimport/tree/for2022)
