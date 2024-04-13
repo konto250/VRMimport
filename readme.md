@@ -20,16 +20,16 @@
 - UniVRM 最新版のパッケージを追加
   - githubのvrm-c/UniVRMを参照(https://github.com/vrm-c/UniVRM/releases)
 
-![alt_text](images/2022/image0.png "image_tooltip")
+![alt_text](images/image0.png "image_tooltip")
 
 ### ② アバター、衣装のunitypackageインポート
-![alt_text](images/2022/image1.png "image_tooltip")
+![alt_text](images/image1.png "image_tooltip")
 
 ### ③アバター、衣装のprefabをhierarchyに入れる
-![alt_text](images/2022/image2.png "image_tooltip")
+![alt_text](images/image2.png "image_tooltip")
 
 ### ④ hierarchyの衣装のルートを選択して右クリックして、Modular Avatar > Setup Outfitを選択
-![alt_text](images/2022/image3.png "image_tooltip")
+![alt_text](images/image3.png "image_tooltip")
 
 ### ⑤ メニューバーのVRChat SDK > Show Control Panelを選択して、Build&Publish する(VRChatにアップロードしない人はこの手順は省略してよい)
 
@@ -39,7 +39,7 @@
 - アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&lt;NOIK&gt;と追記する。ルーシュカの場合はUpperChest。
 - 衣装にも&lt;NOIK&gt;の追記が必要となる場合もある
 
-![alt_text](images/2022/image4.png "image_tooltip")
+![alt_text](images/image4.png "image_tooltip")
 
 ### ⑦ hierarchyのアバター名(clone)を選択して、メニューバーのVRM0 > Export to VRM0.xを選択
 - 表示されたダイアログにライセンス情報を適切に入力してExportを押す
@@ -59,7 +59,7 @@
 - 変換方法
 手順⑧でエクスポートしたVRMファイル（VRMTEST.vrm）を_convert.batにドラッグ＆ドロップすると自動的に変換される
 
-![alt_text](images/2022/image5.png "image_tooltip")
+![alt_text](images/image5.png "image_tooltip")
 
 - 変換が進んでいき・・・・
 
@@ -67,7 +67,7 @@
 
 - こうなれば変換は成功
 
-![alt_text](images/2022/image7.png "image_tooltip")
+![alt_text](images/image7.png "image_tooltip")
 
 ### ⑩ VRMファイル名＋converted.glbというファイルが出力されているので、これをResoniteにインポート（Resoniteのウィンドウにドラッグ＆ドロップ）する。
 モデルインポーターのダイアログが表示されるので、3Dモデル → 一般的なほとんどのモデル → ヒューマノイドの身長に自動設定 → 高度な設定
@@ -79,7 +79,7 @@
 
 少し待てばテクスチャーも反映されるはずだが数分待っても反映しない場合は、VRMファイル名＋converted.glbが出力されているフォルダにテクスチャーも出力されているので、ResoniteにインポートしてモデルのXiexetoonマテリアルに設定する（設定方法は省略）
 
-![alt_text](images/2022/image8.jpg "image_tooltip")
+![alt_text](images/image8.jpg "image_tooltip")
 
 ### ⑫ アバタークリエイターでアバター化する（省略）
  - 揺れ物の設定
