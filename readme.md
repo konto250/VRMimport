@@ -1,12 +1,14 @@
-# Modular Avatarをつかって着せ替えしたVRChatアバターをGLB化してResoniteに持ち込む方法の1つ
+# Modular Avatarをつかって着せ替えしたVRChatアバターをGLB化してResoniteに持ち込む方法
  - この文書は Unity 2022.3.6.f1 / VRCSDK 3.5.2 / UniGLTF-v0.121.0 を対象としている
  - Unity 2019.4.31f1 / VRCSDK 3.4.2 / UniVRM-0.99 を対象とした文書は[こちら](https://github.com/konto250/VRMimport/tree/for2019)
  - Unity 2022.3.6.f1 / VRCSDK 3.5.0 / UniVRM-v0.118.0 を対象とした文書は[こちら](https://github.com/konto250/VRMimport/tree/for2022)
 
 ## 手順の概略
 - [Modular Avatar](https://modular-avatar.nadena.dev/ja/docs/intro)を使いアバターの着せ替えをしてVRChatにアップロード
+- ブレンドシェイプの設定値をメモ
 - UniGLTF 最新版を使いGLB形式でエクスポートする
 - Resoniteにインポート
+- メモしたブレンドシェイプの値を設定（GLBにしてResoniteにインポートするどこかの時点で、設定値がすべてゼロになってしまうため）
 
 ## これを書いたときの環境など
 - 使用アバター  [ルーシュカ](https://booth.pm/ja/items/4296675)（[とるた めるか～と -Torta Mercato-](https://tortamercato.booth.pm/)）
@@ -34,6 +36,7 @@
 
 ### ⑥ hierarchyのアバタールートを選択して、メニューバーのTools > Modular Avatar > Manual bake avatar を選択
 - アバター名(clone)がhierarchyに追加される
+- アバターの（必要なら衣装のも）、ブレンドシェイプの設定値をメモ
 - アバターのアーマチュアを展開してリグとして認識させないボーンの名前の先頭に&lt;NOIK&gt;と追記する。ルーシュカの場合はUpperChest。
 - 衣装にも&lt;NOIK&gt;の追記が必要となる場合もある
 
@@ -53,7 +56,7 @@
 
 ### ⑩ モデルが表示されれば完了
 
-少し待てばテクスチャーも反映されるはずだが数分待っても反映しない場合は、VRMファイル名＋converted.glbが出力されているフォルダにテクスチャーも出力されているので、ResoniteにインポートしてモデルのXiexetoonマテリアルに設定する（設定方法は省略）
+少し待てばテクスチャーも反映されるはずだが数分待っても反映しない場合は、UnityのProjectのAssetフォルダから探しResoniteにインポートしてモデルのXiexetoonマテリアルに設定する（設定方法は省略）
 
 ![alt_text](images/image8.jpg "image_tooltip")
 
@@ -63,6 +66,7 @@
  - Shadowrampの調整
  - Eye ManagerのMaxSwingの調整
  - アバター保護の設定（SimpleAvva）
+ - GLBエクスポートする前にメモしたブレンドシェイプの設定値を、アバターに（必要なら衣装にも）、設定する
  - etc, etc...
 #### 参考
 - [アバターセットアップマニュアル by lill](https://lillill.notion.site/by-lill-21ba5946cdd841339366b93913a52407)
